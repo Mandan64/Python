@@ -1,0 +1,13 @@
+import datetime
+
+# I am going to print a date and time
+today_date=(datetime.date.today())
+print(today_date)
+
+
+#This is going to print only month
+print(today_date.month)
+
+#This is going to print current year
+
+print(today_date.year)
