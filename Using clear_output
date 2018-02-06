@@ -1,0 +1,7 @@
+from IPython.display import clear_output
+# Using clear_output
+
+print("I am going to use clear output")
+
+print("Let see what happened")
+clear_output()
