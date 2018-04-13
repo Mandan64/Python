@@ -1,0 +1,21 @@
+# counting number of upper case and lower case in a sentence
+def countCase(sentence):
+    my_dict = {"upperCase":0, "lowerCase":0}
+    for x in sentence:
+        
+        #counting the upper case
+        if(x.isupper()):
+            my_dict["upperCase"] +=1
+            
+            # Counting the smaller case 
+        if (x.islower):
+            my_dict["lowerCase"] +=1
+            
+            # Preparing to display the data the Data
+    print("The original sentence is: ",sentence)
+    print("The number of uppercase is: ",my_dict["upperCase"])
+    print("The number of lower case is: ",my_dict["lowerCase"])
+
+    # Displaying the data
+sentence = input("Enter the sentence: ")
+countCase(sentence)
